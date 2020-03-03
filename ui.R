@@ -1,7 +1,4 @@
 
-#Assignment 2 - R visualization 
-#Name: Stephy James
-#Student ID: 29915651
 #Last modified: 08/04/2019
 
 
