@@ -1,7 +1,4 @@
 
-#Assignment 2 - R visualization 
-#Name: Stephy James
-#Student ID: 29915651
 #Last modified: 08/04/2019
 
 
@@ -16,7 +13,7 @@ library(leaflet)
 server <- function(input, output) {
   
   
-  data <- read.csv("assignment-02-data-formated.csv", header=T)
+  data <- read.csv("Data.csv", header=T)
   
   #the bleach value columnn is converted from fartor format to numeric format
   data$value1 <-as.numeric(sub("%","",data$value))
